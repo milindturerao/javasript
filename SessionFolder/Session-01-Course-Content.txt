@@ -1,0 +1,107 @@
+ Session-01-Course Content.
+========================================================
+  
+--------------------------------------------------------------------------------------------------  
+ What is Software.
+  -----------------------------------------------------------------------------------
+  software is  a set of instructions. 
+  
+  types of software
+  1)User Appliction-: which software used by user it called user application.
+    for example: word , excel, banking application application.
+	without os cant install any software.
+  2)Operation system: which software is middle between user and electroinc device called
+  operating system. 
+  windows.
+  unix.
+  linux.
+  android
+  ios.
+  etc.
+  
+  3)Programming language: using programming language we can develope
+  operation system and user application.
+  c,cpp can develop os.
+  java,python,javascript,php can develope user application.
+
+
+Part-02 Basic JavaScript
+ 1.JavaScript Course Content.
+ 2.What is JavaScript and Who Take.
+ 3.Why to Learn JavaScript.
+ 4.Environment Setup for JavaScript
+ 5.javascript Basics 
+ 6.JavaScript Variable Declarations
+ 7.Rules for Declaring Variable
+ 8.Data Types in JavaScript
+ 9.Operators in JavaScript Part-01.
+10. Operators in JavaScript Part-02
+11.Conditionl Statements (if-Else)in JavaScript
+12.Conditionl Statements (Switch)in JavaScript
+13.JavaScript For-Loop Examples 
+14.JavaScript While-loop Examples
+15.object Cconcept in JavaScript
+ 
+Part-03 Advanced JavaScript.
+1.object concept in JavaScript
+2.Array concept in javascript
+3.Intro to Funtion in JavaScript
+5.simple functional in JavaScript
+6.complex Funtion in JavaScript
+7.chicken curry With Funtion in JavaScript
+8.Built in array funtion in javascript
+9.Math object in javascript
+10.Date object in javascript
+11.Number, string,JSON object in javascript
+12.javascript Coding Question 
+
+
+
+Part-04-Inbuild Object.
+1.DOM Manipulation intrdution in javascript
+2.DOM Events Handling in javascript
+3.DOM Event Listeners in javascript
+4.DOM Keyup Event in javascript
+5.DOM Change Event  in javascript
+6.DOM Change Password on check in javascript
+7.DOM Range Select on Amount in javascript
+8.SMS App using JS DOM in javascript
+9.Didital Watches using JS DOM
+10.Math Table in javascript
+11.Stop Watch in javascript
+12.Form Validation in javascript
+
+Part-05-Storage Concept.
+1.Local Storage Concept in javascript
+2.Session Storage Concept in javascript
+3.Task List App Local Storage
+4.Scopes Concept in javascript
+
+
+Part-06-ES6 ECMA Script Version 6.
+1.ES6 Template Strings Concept in javascript
+2.ES6 Optional Parameters Concept
+3.ES6 Arrow Funtion Concept in javascript
+4.ES6 For-oF Loop concept in javascript
+5.ES6 Destruturing concept in javascript
+6.ES6 Spread Operator concept
+
+
+
+Part-07-Object Oriented Programming.
+1.Object Oriented Classes concept in javascript
+2.Sub-Classes, inheritance in javascript
+3.Object oriented Modules concept in javascript
+4.Setlnterval(), setTimeOut(),clearinterval
+	
+
+Part-08-API Integration.
+1.Asynchronous javascript programming
+2.Callback Funtion concept javascript
+3.Real Time Use Callback Funtion javascript
+4.Promises Concept in javascript
+5.Dependent Promises concept in javascript
+6.Real Time Use of Promises in javascript
+7.ES8 Async Await concept in javascript
+8.image Upload 
+

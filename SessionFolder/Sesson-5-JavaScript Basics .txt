@@ -1,0 +1,36 @@
+JavaScript Basics 
+=====================
+
+//log , info , warn , error , table;
+
+//log
+
+console.log('im singale collum',"im duble collum");
+
+//info
+console.info(" im information message");
+
+//warn
+console.warn("im warning message");
+
+//error
+console.error("im error message");
+
+//table
+let student{
+name:'milin',
+age:25,
+course:'cse'
+}
+
+console.table(student);
+
+
+show the defrfeent Browser
+
+
+Chrome -> Google -> V8 Engine
+
+FireFox -> Mozilla -> Spider Monkey
+
+IE -> Microsoft -> Chakra

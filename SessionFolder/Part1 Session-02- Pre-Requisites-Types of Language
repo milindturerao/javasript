@@ -1,0 +1,103 @@
+				Session-01- Pre-Requisites: Types of Language
+			  =================================================
+
+
+  Language : we us language to communicate between human.
+             example: Marathi,Hindi,English.
+  Language Problem: both person should no same language. else
+                    will face problem for communication.
+					
+	
+  Programming Language:
+             1)Low Language  : which language directly speek to electroincs device 
+			                   that is called low language.
+							   Example: Assambley Language.
+							   software : Embeded Software 
+							   Example  : TV Remote,Washing Machine,Micro-Wave.
+             2)High Language :			 
+                          we use intermidate
+						   for speek with computer in binary language as a translator
+				translator is nothing but it is a compiler or interpreter.
+
+
+ 2.Types of Programming Language
+		A)Low Level.
+		   Assembling.
+		B)High Level.
+				There are 3 ways to write and orgnize code.
+		      1.procedural programming: which style more focus on steps to write code that is 
+										called procedural.
+										
+									
+										
+					Example:-  	
+                                     //addition of two number
+									 
+									 int a,b,c;
+										void addition()
+										{
+										  //step 1 variable declaration
+										a=10;       //step 2 initilize variable a
+										b=20;       //step 3 initilize variable b.
+										c=a+b;      //
+										int x=110;  // invalid step we cannot declare variable
+										print(c);
+										
+										
+										}					
+										
+					c programming,ADA,Pascal.
+					
+			  2.functional Programming: 
+			  which style more focus on functions which takes data and process it and return.
+			  it is called functional programming.
+			  
+			                   int a,b,c;
+							   void input()
+							   {
+							   a=prompt('enter value for a');
+							   b=prompt('enter value for b ');
+							   }
+							   
+							   void addition()
+							   {
+							        c=a+b;
+							   }
+			   
+			                   input();
+							   addition();
+							   input();
+							   addition();
+			  
+						javascript,vb script,python
+			  3.object oriented programming: which style we write code in classes and we can
+			                                 create object it contains Data+Method.
+											 
+					class Calculator
+									{
+									int a,b,c;
+									
+									public void input()
+									{
+									a=sc.nextInt();
+									b=sc.nextInt();
+									}
+									
+									public void addition()
+									{
+									c=a+b;
+									}
+									
+									public static void main(String args[])
+									{
+									
+									Calculator cal=new Calculator();
+									cal.input();
+									cal.addition();
+									
+									}
+									
+
+									}					
+			                                  
+					c++,c#,Vb.Net,php,java, etc..

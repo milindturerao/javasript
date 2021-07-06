@@ -1,0 +1,33 @@
+							Rules for Declaring Variables
+============================================================================================================
+
+1) All Variables are case sensitive;
+
+	Ex: let name = 10;
+	console.log(Name);// geting error; Name is not defined
+	
+2) All Variables name must be in camelCase;
+
+	Ex: let myemployeename = "john";
+	        my Employeen Name
+
+
+3) devloper allwed max char  15 we haw to get 10000 of char;
+
+
+4) char allwed are a-z, A-Z, $, _ , 0-9;
+    Ex: let number = 10; valid
+		let $number =10; valid
+		let _number =10; valid
+		let number_1 = 10; valid;
+		let 1number = 10; in valid;
+	
+5) Variables must not starts whith a number;
+		let #number = 10; in valid;
+		let 1number = 10; in valid;
+		
+6) a Variables must not re-Declared;		
+
+
+			
+			

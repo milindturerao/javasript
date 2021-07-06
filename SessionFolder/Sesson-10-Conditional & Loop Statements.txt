@@ -1,0 +1,129 @@
+										Conditional & Loop Statements 
+	=======================================================================================================									
+	1) If-Else
+	2) Swirch
+	3) for Loop
+	4) While Loop
+	5) Do-While Loop
+	
+	//If-Else
+====================
+	
+	let time  = 17;
+	let wishMessage ="";
+
+		if (time >= 0 && time <=12) {
+			wishMessage = "Good Morning";
+		} else if (time > 12 && time <=17){
+			wishMessage = "Good Afternoon";
+		} else if (time > 17 && time <=20){
+			wishMessage = "Good Evening";
+		} else if (time > 20 && time <=23){
+			wishMessage = "Good Night";
+		}
+		else {
+		wishMessage = " Enter a Proper Time ";
+		}
+
+	console.log(wishMessage);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	switch case
+====================	
+	
+	let day = new Date().getDay();
+	let today = '';
+switch (day) {
+	case 0:
+        today = 'Sunday'
+        break;
+    case 1:
+        today = 'Monday';
+        break;
+    case 2:
+        today = 'Tuesday';
+        break;
+    case 3:
+        today = 'Wednesday';
+        break;
+    case 4:
+        today = 'Thusday';
+        break;
+    case 5:
+        today = 'Friday';
+        break;
+    case 6:
+        today = 'Saturday';
+        break;
+
+    default:
+        today = 'Set Proper Date';
+        break;
+}
+
+console.log(`Today is : ${today}`);
+	
+	
+	
+		for Loop
+ =======================
+ let result = '';
+for (let i = 0; i <= 10; i++) {
+    if (i <= 9) {
+        result +=`${i}, `;
+    } else {
+        result +=`${i} `;
+    }
+}
+console.log(result);
+
+
+// Reverce Loop
+
+for (let i = 20; i >= 0; i-=2) {
+    if (i > 0) {
+        result +=`${i} ,`;
+    } else {
+        result +=`${i}`;
+    }
+
+}
+
+// https://spreadsheets.google.com/feeds/list/1FopKtLVUpSO10rfmNohrCp4P1UPWkQlsA8oz5kSKzwE/od6/public/values?alt=json
+ https://docs.google.com/spreadsheets/d/e/2PACX-1vQyySMuQ23kMj6fTOkIUUU7U3kEWuFeoLbNzs3YIXt4SkV9tl6xx-_ISPeOdT8K8xMyij9Ul77_QYZD/pubhtml?gid=0&single=true
+console.log(result);
+
+       //Nestet Loop
+		let number=5;
+		result='';
+	for(let i = 1;i <= number; i++){
+    for (let j = 0; j < i; j++) {
+        result +=`* `;
+    }
+    result += `\n`;
+}
+console.log(result);
+  
+  
+  
+
+
+ 
+		While Loop
+ =========================
+ 
+ 
+ 
+ 
+ Do-While Loop
+	
+	
+	

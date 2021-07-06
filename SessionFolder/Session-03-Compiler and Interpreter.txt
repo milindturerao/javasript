@@ -1,0 +1,11 @@
+  Session-03-Compiler and Interpreter
+  ==================================
+  
+   1.Compiler Vs Interpreter.
+  --------------------------------------------------------------------------------------- 
+  Compiler                                                       Interpreter
+  ---------------------------------------------------------------------------------------
+  1.Read Entire program and convert it into binary.              1.Translate one statement at  a time.
+  2.it is Faster than interpreter                                2.it is slower thant compiler
+  3.Object code is Generated hence required more memory.         3.it is not gernerate object code hence take less memory.
+  4.example: c,c++,java.                                         4.javascript,python,ruby.

@@ -1,0 +1,57 @@
+What is Variable: where we store data that name called variable.
+        
+scope of variable/Types of variable:
+
+local variable : when we declare a variable inside the block/function that variable called
+local variable. it cannot access outside the block and function.
+
+global veriable: it is declare outside the block and access by all the blocks/function
+called global variable.
+
+
+
+Rules to declare variable:
+      variable name should not start with numbers.
+	  should not contains any spec.
+	  it can contain _underscore.
+	  it cant use special symbol.
+//Variable Declarations
+
+  
+
+/*
+var is a old version for es5 -> ecmascript 5
+var -> Keyword to decleare a variable.
+a -> variable name / reference variable
+= -> assignment operator
+10 -> value / Data
+*/
+
+/*
+let is a new version for es6 -> ecmascript 6
+let -> Keyword to decleare a variable.
+b -> variable name / reference variable
+= -> assignment operator
+20 -> value / Data
+; -> end of the Statement
+*/
+
+var a = 10;
+var b = 20;
+var sum = a + b;
+
+console.log('The Sum of'+ a ' , ' + b + ' is : '+ sum); // its is a old version es5
+
+
+
+let c = 10;
+let d = 20;
+let add = c+d;
+
+console.log(`The add of ${c} , ${d} is : ${add}`);  
+
+// ES6 -> Template String / template Literal (``) back tick
+
+
+
+

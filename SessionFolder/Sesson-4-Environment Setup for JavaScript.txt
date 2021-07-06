@@ -1,0 +1,29 @@
+                    Sesson-4-Environment Setup for JavaScript
+===================================================================================================	
+1) editor
+   ->v.s.code,
+   ->sublime text,
+   ->Atom,
+   -webStorm ide,
+   -Brackets etc...
+
+2) Browser
+  -> Chrome
+  -> Live Server
+  
+  
+  
+   
+  1)Programing fundamentals / Concept
+		->variable declaration 
+		->datatypes
+		->operators
+		->Conditional / Loops
+		->Objects
+		->arrays
+		->Functions
+		->Math, date, Json
+		->programs
+  2)DOM Manipulation
+  
+  3)Avd javaSript & ES6 & ES7 Features
