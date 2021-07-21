@@ -1,0 +1,24 @@
+2.Array concept in javascript
+
+what is a array ?
+
+array is indexed collection of elements (object/ string / array / boolean / number)
+
+
+//Creation fo an array
+let studentList = ['ganesh','suyog','nikita','prajakta'];
+console.log(studentList);
+
+//access the elements of array 
+
+console.log(studentList['0']); 
+
+//access the non-existing
+console.log(studentList['4']); 
+
+for
+
+
+
+
+
