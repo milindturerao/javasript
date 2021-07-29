@@ -16,9 +16,117 @@ console.log(studentList['0']);
 //access the non-existing
 console.log(studentList['4']); 
 
-for
+
+// 01. normal for - loop
+
+let studentList = ['ganesh','suyog','nikita','prajakta'];
+for (let i = 0; i <= studentList.length-1; i++) {
+    console.log(studentList[i]);
+    
+}
 
 
+//02. for in loop upto ES5
 
+for (const i in studentList) {
+   console.log(studentList[i]);
+}
+
+
+//03.for of loop from ES5
+for (const i of studentList) {
+   console.log(i);
+}
+
+//04.forEach function from ES5
+studentList.forEach(function (stud) {
+    console.log(stud);
+});
+
+
+//05. forEach With Arrow function from ES6
+
+studentList.forEach((stud)=>{console.log(stud);});
+
+Create a let employeesList = [
+    {
+        id: 1,
+        name: 'ganesh',
+        age: 20,
+        designation: 'WebDevloper',
+        isActive: true
+    },
+    {
+        id: 2,
+        name: 'suyog',
+        age: 20,
+        designation: 'WebDevloper',
+        isActive: false
+    },
+    {
+        id: 3,
+        name: 'nikita',
+        age: 22,
+        designation: 'WebDevloper',
+        isActive: false
+    },
+    {
+        id: 4,
+        name: 'prajakta',
+        age: 22,
+        designation: 'WebDevloper',
+        isActive: true
+    },
+    {
+        id: 5,
+        name: 'Milind Turerao',
+        age: 26,
+        designation: 'Teacher WebDevloper',
+        isActive: true
+    },
+    {
+        id: 6,
+        name: 'Santosh Turerao',
+        age: 30,
+        designation: 'Teacher Sop.Devloper',
+        isActive: false 
+    }
+];
+
+// access all emloyees
+console.log(employeesList);
+
+// iterate emloyees
+
+employeesList.forEach((e) => {
+    // console.log(e);
+})
+//Filter the Junior Employee :age <=25;
+
+let JuniorEmployee = [];
+for (const emp of employeesList) {
+    if (emp.age <= 25) {
+        JuniorEmployee.push(emp);
+    }
+}
+console.log(JuniorEmployee);
+
+//Filter the Senior Employee :age <=25;
+let seniorEmployee = [];
+for (const emp of employeesList) {
+    if (emp.age >= 25 && emp.age <= 30 ) {
+        seniorEmployee.push(emp);
+    }
+}
+console.log(seniorEmployee);
+
+
+let activeEmployee = [];
+for (const emp of employeesList) {
+    if (emp.isActive) {
+        activeEmployee.push(emp);
+    }
+}
+console.log(activeEmployee);
 
 

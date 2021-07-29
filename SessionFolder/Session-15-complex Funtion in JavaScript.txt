@@ -1,0 +1,15 @@
+					complex Funtion in JavaScript
+					
+// funtion with on object as parameter
+
+let printObject = funtion(obj){
+console.log(obj);
+};
+
+printObject({name:'milind',age:26});				
+ 	
+
+
+
+
+	

@@ -1,0 +1,57 @@
+						simple functional in JavaScript
+						
+	//function without parameter 
+
+function greet(){
+console.log('Good morning');
+}
+greet();
+
+
+//function expression
+
+let greetMe = function(){
+console.log('Good morning');
+}
+console.log(greetMe());
+
+greetMe()
+
+
+//function with parameter
+
+let wishMe = function(name,age){
+let message = `Hello ${name} your the ${age} yrs old`;
+console.log(message);
+}
+
+wishMe(Milind ,26);
+
+
+//function with return type
+
+let sum = function(a,b){
+let result = 2 * (a + b);
+return result;
+};
+
+ sum(10,20);
+ 
+ let output = sum(10,20);
+ 
+ console.log(output);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
