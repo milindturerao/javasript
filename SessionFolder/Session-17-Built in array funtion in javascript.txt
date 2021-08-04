@@ -1,0 +1,204 @@
+						Built in array funtion in javascript
+						
+Shift() -> remove the first element from array
+unshift() -> add the first element to array
+push() -> add the last element to array
+pop() -> remove the last element from array
+sort() -> to sort the array in ascending order
+reverse()-> to reverse the array elements
+splice()-> to remove / replase from the middle
+split() -> to split a string to an array
+join() ->  to join the array elements to string
+slice()->  to create a new copy of an array
+forEach()->  to loop the array elements
+find()-> find exact element with condition from
+filter()->to filter the array elements
+
+
+// Functions of Arrays
+
+// shift() -> remove the first element from array
+
+console.log('-------------- shift()-------------');
+let technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+technologies.shift();
+console.log(technologies);
+
+// unshift() -> add the first element to array
+
+console.log('-------------- unshift()-------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+technologies.unshift('node.js');
+console.log(technologies);
+
+
+// Push() -> add the last element to array
+
+console.log('-------------- Push()-------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+technologies.push('node.js');
+console.log(technologies);
+
+//pop() -> remove the last element from array
+
+console.log('-------------- pop() -------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+technologies.pop();
+console.log(technologies);
+
+//sort() -> to sort the array in ascending order
+
+console.log('-------------- sort() -------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+technologies.sort();
+console.log(technologies);
+
+
+//reverse()-> to reverse the array elements
+
+console.log('-------------- reverse() -------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+technologies.reverse();
+console.log(technologies);
+
+
+//reverse-> to reverse the array elements
+
+console.log('-------------- reverse -------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+technologies.sort().reverse();
+console.log(technologies);
+
+//splice(index)-> to remove / replase from the middle
+
+console.log('-------------- splice() -------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+technologies.splice(4);
+console.log(technologies);
+
+//splice(index, no-of elements)-> to remove / replase from the middle
+
+console.log('-------------- splice() -------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+technologies.splice(2,2);
+console.log(technologies);
+
+//splice(index, 1,replace elements)-> to remove / replase from the middle
+
+console.log('-------------- splice() -------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+technologies.splice(2,1,'nodejs');
+console.log(technologies);
+
+
+//join() ->  to join the array elements to string
+
+console.log('-------------- join() -------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(technologies); 
+let techString=technologies.join(' - ');
+console.log(techString);
+
+//split() -> to split a string to an array
+console.log('-------------- split() -------------');
+technologies = ['html', 'css', 'javascript','jquery', 'bootstrap'];
+
+console.log(techString); 
+let newTechs=techString.split(' - ');
+console.log(newTechs);
+
+
+
+//filter()->to filter the array elements
+let college = {
+    Techer: [
+        {
+            id:5,
+            name: 'Santosh Turerao',
+            age: 30,
+            work: 'Sop-dev'
+        },
+        {
+            id:6,
+            name: 'Milind Turerao',
+            age: 30,
+            work: 'Sop-dev'
+        }
+    ],
+    Student: [
+        {
+            id: 1,
+            name: 'ganesh',
+            age: 20,
+            designation: 'WebDevloper',
+            isActive: true
+        },
+        {
+            id: 2,
+            name: 'suyog',
+            age: 20,
+            designation: 'WebDevloper',
+            isActive: false
+        },
+        {
+            id: 3,
+            name: 'nikita',
+            age: 22,
+            designation: 'WebDevloper',
+            isActive: false
+        },
+        {
+            id: 4,
+            name: 'prajakta',
+            age: 22,
+            designation: 'WebDevloper',
+            isActive: true
+        },]
+}
+
+
+
+college.Student.forEach((stud)=>{ console.log(stud.name)});
+
+let scniorStudent = [];
+college.Student.forEach((stud)=>{
+    if(stud.age >= 21){
+        scniorStudent.push(stud)
+    }
+})
+
+console.log(scniorStudent);
+ scniorStudent = college.Student.filter(function (stud) {
+    return stud.age <= 21;
+})
+
+console.log(scniorStudent);
+
+
+
+
+
+
+
+						
