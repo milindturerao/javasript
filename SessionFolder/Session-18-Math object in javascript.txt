@@ -1,12 +1,43 @@
 							Math object in javascript
 
+Math -> Mathematical Oprations
+Date -> Date Related Oprations
+Number -> Number
+String -> 
+JSON -> 
+
+Math -> Mathematical Oprations
+
+//Sqrt
+let sqrt = Math.sqrt(144);
+console.log(sqrt);
 
 
+//pow
+let pow = Math.pow(2,5);
+console.log(`2 ^ of 5 is : ${pow}`);
 
+//Min
+let min = Math.min(12,34,56,4,51,2,45,25,36,1);
+console.log(min);
 
+//Max
+let max = Math.max(12,34,56,4,51,2,45,25,36,1);
+console.log(max);
 
+//random
+let random = Math.random();
+console.log(random);
 
+//random
+let random = Math.random()*10000;
+console.log(random);
 
+//random , round
+let random = Math.round( Math.random()*10000);
+console.log(random);
+
+//javascript Math in mdn
 
 
 

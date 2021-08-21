@@ -4,7 +4,7 @@ console.log('complex Function in JavaScript');
 // function with on object as parameter
 
 
-let printObj = function (name , age) {
+let printObj = function  (name , age) {
     let result =`${name} ${age} `;
     console.log(result);
 }

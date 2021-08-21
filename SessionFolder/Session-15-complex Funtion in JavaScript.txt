@@ -1,14 +1,79 @@
-					complex Funtion in JavaScript
+					complex Function in JavaScript
 					
-// funtion with on object as parameter
+// function with on object as parameter
 
-let printObject = funtion(obj){
-console.log(obj);
-};
+let printObject = function(obj){
+    console.log(obj);
+    };
+    
+    printObject({name:'Milind',age:26});
 
-printObject({name:'milind',age:26});				
+    let mobile = 
+    {
+        brand : 'Apple',
+        color : 'Silver',
+        price : 100000
+    }
+    printObject(mobile);
+	
+	
+// function with an array as a parameter
+
+let printArray = function (array) {
+    let result = '';
+    for (let index in array) {
+        result += `INDEX : ${index} => VALUE : ${array[index]} \n`;
+    }
+    console.log(result);
+}
+
+printArray([10,20,30,40,50,60,70,80,]);
+
+let color = ['white','black','orenge','purple'];
+
+printArray(color);
+		
+
+
+		
  	
 
+// Nested Function
+
+let outerFu = function () {
+    console.log('Im a Outer Function');
+    let innerFn = function () {
+        console.log('Im a Inner Function');
+    }
+    innerFn()
+}
+
+outerFu()
+
+
+
+// Twisted Function
+
+let twistedFn = function () {
+    let name = 'Rohit';
+    let printStudent = function () {
+        let student =
+        {
+            brand: 'Apple',
+            color: 'Silver',
+            price: 100000
+        };
+        return student;
+    }
+    return printStudent
+}
+
+
+
+// twistedFn()
+let innerfn = twistedFn();
+let studentObj = innerfn();
+console.log(studentObj);
 
 
 

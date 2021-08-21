@@ -1,0 +1,28 @@
+						 DOM Manipulation Introduction
+
+
+	DOM = Document Object Model;
+
+What is a DOM in JavaScript?
+
+The Document Object Model (DOM) is a programming interface for web documents. 
+It represents the page so that programs can change the document structure, style,
+and content. ... As an object-oriented representation of the web page, 
+it can be modified with a scripting language such as JavaScript
+
+
+console.log('DOM Manipulation');
+console.log(document);
+console.log(document.head);
+console.log(document.title);
+document.title = 'DOM'
+console.log(document.body);
+
+let myH1 = document.querySelector('#MyH1');
+myH1.innerText = 'MILIND';
+myH1.style.color = 'red';
+myH1.style.backgroundColor = 'blue';
+myH1.style.fontSize = '50px';
+myH1.style.textAlign = 'center';
+myH1.style.boxShadow = '0 0 10px black';
+

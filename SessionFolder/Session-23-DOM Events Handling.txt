@@ -1,0 +1,40 @@
+							DOM Events Handling in JavaScript 
+
+
+what is a event in javascript?
+Event handlers can be used to handle and verify user input, user actions, and browser actions.
+
+
+
+
+let sayGoodMorning = () => {
+    let h1Tag = document.querySelector('#msg-1');
+    h1Tag.innerText = 'Good Morning'; 
+	hlTag.style.backgroundColor = 'orangered';
+    h1Tag.style.padding = '15px';
+    h1Tag.style.boxShadow = '0 0 10px black';
+};
+
+let sayGoodAfternoon = () => {
+    let h1Tag = document.querySelector('#msg-1');
+    h1Tag.innerText = 'Good Afternoon';
+    h1Tag.style.backgroundColor = 'orangered';
+    h1Tag.style.padding = '15px';
+    h1Tag.style.boxShadow = '0 0 10px black';
+};
+
+
+let sayGoodEvening = () => {
+    let hiTag = document.querySelector('#msg-1');
+    hiTag.innerText = 'Good Evening'; hlTag.style.backgroundColor = 'orangered';
+    hlTag.style.padding = '15px';
+    hiTag.style.boxShadow = '0 0 10px black';
+};
+
+let sayGoodNight = () => {
+    let h1Tag = document.querySelector('#msg-1');
+    h1Tag.innerText = 'Good Night';
+    h1Tag.style.backgroundColor = 'orangered';
+    h1Tag.style.padding = '15px';
+    h1Tag.style.boxShadow = '0 0 10px black';
+};

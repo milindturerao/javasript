@@ -1,0 +1,65 @@
+							Date Object in JavaScript
+
+
+
+
+
+let date = new Date().toDateString();
+console.log(date);
+
+day = new Date().toLocaleTimeString('en-us');
+console.log(day)
+
+let options = { timeZone : 'America/New_York'};
+let usaDate = new Date().toLocaleDateString('en-us',options);
+console.log(usaDate);
+
+ options = { timeZone : 'America/New_York'};
+let usaTame = new Date().toLocaleTimeString('en-us',options);
+console.log(usaTame);
+
+
+
+
+ day = new Date().getDay();
+let today = '';
+switch (day) {
+    case 0:
+        today = 'Sunday'
+        break;
+    case 1:
+        today = 'Monday';
+        break;
+    case 2:
+        today = 'Tuesday';
+        break;
+    case 3:
+        today = 'Wednesday';
+        break;
+    case 4:
+        today = 'Thusday';
+        break;
+    case 5:
+        today = 'Friday';
+        break;
+    case 6:
+        today = 'Saturday';
+        break;
+
+    default:
+        today = 'Set Proper Date';
+        break;
+}
+
+console.log(today);
+
+
+
+let currentMonth = new Date().getMonth()+1;
+console.log(currentMonth);
+
+let c_Day = new Date().getDate();
+let c_Month = new Date().getMonth()+1;
+let c_Year = new Date().getFullYear();
+
+console.log(`${c_Day}/${c_Month}/${c_Year}`);

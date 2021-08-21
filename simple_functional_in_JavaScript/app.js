@@ -1,40 +1,46 @@
-console.log('simple functional in JavaScript');
+// console.log('simple functional in JavaScript');
 
 
-//function without parameter 
+// //function without parameter 
 
-function wish() {
-    console.log('Good Morning');
-}
+// function wish() {
+//     console.log('Good Morning');
+// }
 
-wish()
+// wish()
 
-let wishFu = function () {
-    console.log('Good Morning');
-}
+// let wishFu = function () {
+//     console.log('Good Morning');
+// }
 
-// console.log(wishFu);
-wishFu()
-
-
-//function with parameter
-
-let wishMe = function ( message,name) {
-    let msg = `${message} ${name}`;
-    console.log(msg);
-}
-
-wishMe('Good Morning','Milind');
+// // console.log(wishFu);
+// wishFu()
 
 
-//function with return type
+// //function with parameter
+
+// let wishMe = function ( message,name) {
+//     let msg = `${message} ${name}`;
+//     console.log(msg);
+// }
+
+// wishMe('Good Morning','Milind');
 
 
-let sum =function (a,b) {
-    let result = 2 * (a+b);
-    // console.log(result);
-    return result
-}
+// //function with return type
 
- let output = sum(10,30);
- console.log(output);
+
+// let sum =function (a,b) {
+//     let result = 2 * (a+b);
+//     // console.log(result);
+//     return result
+// }
+
+//  let output = sum(10,30);
+//  console.log(output);
+
+
+
+
+
+
